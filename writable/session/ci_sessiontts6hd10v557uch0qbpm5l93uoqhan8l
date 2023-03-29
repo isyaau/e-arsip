@@ -1,0 +1,11 @@
+__ci_last_regenerate|i:1675142964;_ci_previous_url|s:34:"http://localhost:8080/data-pesanan";id_akun|s:2:"10";nama|s:5:"Alfia";username|s:7:"alfia23";foto|s:11:"default.jpg";logged_in|b:1;error|s:301:"<!-- DEBUG-VIEW START 1 SYSTEMPATH\Validation\Views\list.php -->
+	<div class="errors" role="alert">
+		<ul>
+					<li>Harga Harus diisi</li>
+					<li>Tgl pinjam harus diisi</li>
+					<li>Tgl kembali harus diisi</li>
+				</ul>
+	</div>
+
+<!-- DEBUG-VIEW ENDED 1 SYSTEMPATH\Validation\Views\list.php -->
+";__ci_vars|a:3:{s:5:"error";s:3:"old";s:13:"_ci_old_input";s:3:"old";s:21:"_ci_validation_errors";s:3:"old";}_ci_old_input|a:2:{s:3:"get";a:0:{}s:4:"post";a:7:{s:10:"id_pemesan";s:2:"14";s:8:"id_mobil";s:2:"10";s:13:"id_perjalanan";s:1:"1";s:13:"id_jenisbayar";s:1:"1";s:5:"harga";s:0:"";s:10:"tgl_pinjam";s:0:"";s:11:"tgl_kembali";s:0:"";}}_ci_validation_errors|a:3:{s:5:"harga";s:17:"Harga Harus diisi";s:10:"tgl_pinjam";s:22:"Tgl pinjam harus diisi";s:11:"tgl_kembali";s:23:"Tgl kembali harus diisi";}

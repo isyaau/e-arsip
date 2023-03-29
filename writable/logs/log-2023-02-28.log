@@ -1,0 +1,145 @@
+INFO - 2023-02-28 05:10:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-28 05:11:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-28 05:11:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-02-28 05:11:05 --> Undefined array key 28
+in APPPATH\Views\dashboard\index.php on line 149.
+ 1 APPPATH\Views\dashboard\index.php(149): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 28', 'APPPATH\\Views\\dashboard\\index.php', 149)
+ 2 APPPATH\Views\dashboard\index.php(159): tanggal_indo('2023-28-02', true)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\index.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('dashboard/index', [], true)
+ 6 APPPATH\Controllers\Dashboard.php(24): view('dashboard/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-02-28 05:15:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-02-28 05:15:06 --> Undefined array key 28
+in APPPATH\Views\dashboard\index.php on line 149.
+ 1 APPPATH\Views\dashboard\index.php(149): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 28', 'APPPATH\\Views\\dashboard\\index.php', 149)
+ 2 APPPATH\Views\dashboard\index.php(159): tanggal_indo('2023-28-02', true)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\index.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('dashboard/index', [], true)
+ 6 APPPATH\Controllers\Dashboard.php(24): view('dashboard/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-02-28 05:16:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-02-28 05:16:05 --> Undefined array key 28
+in APPPATH\Views\dashboard\index.php on line 149.
+ 1 APPPATH\Views\dashboard\index.php(149): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 28', 'APPPATH\\Views\\dashboard\\index.php', 149)
+ 2 APPPATH\Views\dashboard\index.php(159): tanggal_indo('2023-28-02', true)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\index.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('dashboard/index', [], true)
+ 6 APPPATH\Controllers\Dashboard.php(24): view('dashboard/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-02-28 05:16:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-28 05:17:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-02-28 05:17:38 --> Undefined array key 28
+in APPPATH\Views\dashboard\index.php on line 149.
+ 1 APPPATH\Views\dashboard\index.php(149): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 28', 'APPPATH\\Views\\dashboard\\index.php', 149)
+ 2 APPPATH\Views\dashboard\index.php(159): tanggal_indo('2023-28-02', true)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\index.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('dashboard/index', [], true)
+ 6 APPPATH\Controllers\Dashboard.php(24): view('dashboard/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-02-28 05:17:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-02-28 05:17:57 --> Array callback must have exactly two elements
+in APPPATH\Views\dashboard\index.php on line 149.
+ 1 APPPATH\Views\dashboard\index.php(159): tanggal_indo('2023-28-02', true)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('dashboard/index', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(24): view('dashboard/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-02-28 05:19:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-02-28 05:19:15 --> Undefined array key 28
+in APPPATH\Views\dashboard\index.php on line 149.
+ 1 APPPATH\Views\dashboard\index.php(149): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 28', 'APPPATH\\Views\\dashboard\\index.php', 149)
+ 2 APPPATH\Views\dashboard\index.php(159): tanggal_indo('2023-28-02', true)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\index.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('dashboard/index', [], true)
+ 6 APPPATH\Controllers\Dashboard.php(24): view('dashboard/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-02-28 05:19:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-02-28 05:19:51 --> Undefined array key 28
+in APPPATH\Views\dashboard\index.php on line 149.
+ 1 APPPATH\Views\dashboard\index.php(149): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 28', 'APPPATH\\Views\\dashboard\\index.php', 149)
+ 2 APPPATH\Views\dashboard\index.php(159): tanggal_indo('2023-28-02', true)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\index.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('dashboard/index', [], true)
+ 6 APPPATH\Controllers\Dashboard.php(24): view('dashboard/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-02-28 05:20:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-28 05:20:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-02-28 05:20:28 --> Undefined array key 28
+in APPPATH\Views\dashboard\index.php on line 149.
+ 1 APPPATH\Views\dashboard\index.php(149): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 28', 'APPPATH\\Views\\dashboard\\index.php', 149)
+ 2 APPPATH\Views\dashboard\index.php(159): tanggal_indo('2023-28-02', true)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\index.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('dashboard/index', [], true)
+ 6 APPPATH\Controllers\Dashboard.php(24): view('dashboard/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-02-28 05:21:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-02-28 05:21:00 --> Undefined array key "028"
+in APPPATH\Views\dashboard\index.php on line 149.
+ 1 APPPATH\Views\dashboard\index.php(149): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "028"', 'APPPATH\\Views\\dashboard\\index.php', 149)
+ 2 APPPATH\Views\dashboard\index.php(159): tanggal_indo('2023-28-02', true)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\index.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('dashboard/index', [], true)
+ 6 APPPATH\Controllers\Dashboard.php(24): view('dashboard/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-02-28 05:21:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-02-28 05:21:14 --> Undefined array key 28
+in APPPATH\Views\dashboard\index.php on line 149.
+ 1 APPPATH\Views\dashboard\index.php(149): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 28', 'APPPATH\\Views\\dashboard\\index.php', 149)
+ 2 APPPATH\Views\dashboard\index.php(159): tanggal_indo('2023-28-02', true)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\index.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('dashboard/index', [], true)
+ 6 APPPATH\Controllers\Dashboard.php(24): view('dashboard/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-02-28 05:21:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-28 05:57:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
