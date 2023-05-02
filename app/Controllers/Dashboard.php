@@ -21,14 +21,6 @@ class Dashboard extends BaseController
             // 'pesanan' => $pesanan->hitungJumlahPesanan(),
             'active'  => 'dashboard'
         ];
-        if (session()->get('role') == 1) {
-            return "Role Admin";
-        } elseif (session()->get('role') == 2) {
-            return "Role Kepala Sekolah";
-        } elseif (session()->get('role') == 3) {
-            return "Role Siswa";
-        } else {
-            return "Role Tidak Valid";
-        }
+        return view('dashboard/index', $data);
     }
 }

@@ -32,10 +32,28 @@
 
     <!-- Page Wrapper -->
     <div id="wrapper">
+        <?php if (session()->get('role') == 1) { ?>
+            <!-- Sidebar -->
+            <?= $this->include('layout/sidebar1'); ?>
+            <!-- End of Sidebar -->
+        <?php } elseif (session()->get('role') == 2) { ?>
 
-        <!-- Sidebar -->
-        <?= $this->include('layout/sidebar'); ?>
-        <!-- End of Sidebar -->
+            <!-- Sidebar -->
+            <?= $this->include('layout/sidebar2'); ?>
+            <!-- End of Sidebar -->
+        <?php } elseif (session()->get('role') == 3) { ?>
+
+            <!-- Sidebar -->
+            <?= $this->include('layout/sidebar3'); ?>
+            <!-- End of Sidebar -->
+        <?php } else { ?>
+
+            <!-- Sidebar -->
+            <?= $this->include('layout/sidebar'); ?>
+            <!-- End of Sidebar -->
+        <?php } ?>
+
+
 
         <!-- Content Wrapper -->
         <div id="content-wrapper" class="d-flex flex-column">
